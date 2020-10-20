@@ -1,0 +1,111 @@
+#root {
+  background-color: rgb(219, 216, 216);
+  min-height: 100vh;
+  
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.App-container {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 3rem;
+  border-radius: 1rem;
+  min-width: 60%;
+
+}
+
+
+.App-header {
+  background-color: rgb(219, 216, 216);;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2  rem;
+  font-weight: 700;
+  color: darkcyan;
+  font-family: 'Poppins', sans-serif;
+
+  
+}
+
+.input-form {
+  
+}
+
+.item-bullet {
+  color: darkcyan;
+
+  &__input-name {
+    
+    text-align: start;
+  }
+}
+
+.add-button {
+  color: black;
+  border-radius: .3rem;
+  padding: .3rem 1rem;
+
+  
+
+}
+
+
+
+
+.todo-body {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+
+svg {
+  height: 25px;
+  opacity: .5;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+ }
+
+button {
+  background-color: transparent;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+}
+
+
+.todo-container {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.473);
+  height: 60px;
+}
+
+
+
+.anticon svg {
+  margin-bottom: 5px;
+}
